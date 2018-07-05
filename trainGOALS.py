@@ -1,0 +1,3 @@
+from pyAudioAnalysis import audioTrainTest as aT
+aT.featureAndTrain(["/home/brandonjabr/pyAudio/pyAudioAnalysis/my-recordings/highlights","/home/brandonjabr/pyAudio/pyAudioAnalysis/my-recordings/background"], 1.0, 1.0, aT.shortTermWindow, aT.shortTermStep, "svm", "svmSMtemp", False)
+aT.fileClassification("/home/brandonjabr/pyAudio/pyAudioAnalysis/my-recordings/highlights/out-02.wav", "svmSMtemp","svm")
