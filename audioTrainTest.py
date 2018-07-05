@@ -704,14 +704,9 @@ def evaluateClassifier(features, ClassNames, nExp, ClassifierName, Params, param
         nExp = 50
         print "Number of training experiments changed to 50 due to high number of samples"
     if nSamplesTotal > 2000 and nExp > 10:
-<<<<<<< HEAD
-        nExp = 2
-        print "Number of training experiments changed to 2 due to high number of samples"
-=======
         nExp = 10
         print "Number of training experiments changed to 10 due to high number of samples"
->>>>>>> 1f374d2526639c9e0477379c2bd7a1fac0d8b75e
-
+        
     for Ci, C in enumerate(Params):                # for each param value
                 CM = numpy.zeros((nClasses, nClasses))
                 for e in range(nExp):              # for each cross-validation iteration:

@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 1f374d2526639c9e0477379c2bd7a1fac0d8b75e
 # <img src="icon.png" align="left" height="130"/> A Python library for audio feature extraction, classification, segmentation and applications
 
 *This doc contains general info. Click [here](https://github.com/tyiannak/pyAudioAnalysis/wiki) for the complete wiki*
